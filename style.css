@@ -1,7 +1,7 @@
 /* Aquí decimos que las siguientes reglas aplicaran al tag body en general. */
 body {
   /* Gradiente del fondo */
-  background: linear-gradient(-45deg, #36303b, #34293e, #223039, #282f33);
+  background: linear-gradient(-45deg, #36303b, #162026, #223039, #282f33);
   background-size: 400% 400%;
   animation: gradient 150s ease infinite;
   height: 100vh;
