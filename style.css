@@ -1,9 +1,9 @@
 /* Aquí decimos que las siguientes reglas aplicaran al tag body en general. */
 body {
   /* Gradiente del fondo */
-  background: linear-gradient(-45deg, #232729, #2f3438, #2f3539, #2a262e);
+  background: linear-gradient(-45deg, #333f48, #2b3249, #3f2c51, #253540);
   background-size: 400% 400%;
-  animation: gradient 120s ease infinite;
+  animation: gradient 150s ease infinite;
   height: 100vh;
 
   /* El ancho del contenido de la página tomará 80% del total de ella
