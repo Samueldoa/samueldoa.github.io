@@ -111,7 +111,7 @@ div {
 }
 
 /* Estilo para la barra de navegación */
-.navbar ul {
+.navbar ul{
   list-style-type: none;
   background-color: #28124b; /* Color de fondo original */
   padding: 10px 0; /* Espacio alrededor */
@@ -119,12 +119,12 @@ div {
   text-align: center; /* Centra los elementos de la lista */
 }
 
-.navbar li {
+.navbar li{
   display: inline; /* Coloca los elementos de la lista en línea */
   margin: 0 15px; /* Espacio entre los elementos */
 }
 
-.navbar a {
+.navbar a{
   text-decoration: none; /* Elimina el subrayado por defecto */
   color: white; /* Texto blanco */
   font-size: 18px; /* Tamaño de fuente adecuado */
