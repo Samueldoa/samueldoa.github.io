@@ -54,7 +54,12 @@ div {
   font-weight: bold;
 }
 
-/* El elemento con id footer tendrá un espacio de 20 pixeles arriba.*/
-#footer {
-  margin-top: 20px;
+.navbar ul{
+  list-style-type: none;
+  background-color: #28124b;
+  margin: auto;
+}
+
+.navbar a{
+  text-decoration: none;
 }
