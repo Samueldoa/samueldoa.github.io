@@ -9,12 +9,12 @@ body {
   /* El ancho del contenido de la página tomará 80% del total de ella
    y estará centrado */
   width: 100%;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 
   /* Pongo un espacio vertical entre los límites de la página y el contenido */
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* Esto hace que la gradiente se mueva */
@@ -31,14 +31,18 @@ body {
 }
 
 /* Cualquier tag de este listado tendrá su texto centrado y usala la siguiente familia de fuentes */
+p,
 h1,
 h2 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Rubik", Courier, monospace;
+  font-size: 30px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Rubik", Courier, monospace;
   text-align: center;
   margin-left: 250px;
   margin-right: 250px;
@@ -51,18 +55,25 @@ div {
   text-decoration: underline;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .subtitulo {
   font-size: 30px;
 }
 
 /* Los elementos de esta clase tendrán texto en itálica y negrita*/
 .enfasis {
-  font-style: italic;
+  font-style: Rubik;
   font-weight: bold;
 }
 
 /* Estilo para la barra de navegación */
 .navbar ul{
+  font-family: "Rubik", Courier, monospace;
   list-style-type: none;
   background-color: #055183; /* Color de fondo original */
   padding: 15px; /* Espacio alrededor */
