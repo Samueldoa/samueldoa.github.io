@@ -4,17 +4,17 @@ body {
   background: linear-gradient(-45deg, #16537e, #162026, #241f29, #272a2c);
   background-size: 400% 400%;
   animation: gradient 150s ease infinite;
-  height: 100vh;
+
 
   /* El ancho del contenido de la página tomará 80% del total de ella
    y estará centrado */
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 
   /* Pongo un espacio vertical entre los límites de la página y el contenido */
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Esto hace que la gradiente se mueva */
@@ -32,67 +32,18 @@ body {
 
 /* Cualquier tag de este listado tendrá su texto centrado y usala la siguiente familia de fuentes */
 h1,
-h2,
-div {
+h2 {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
 
-/* Cualquier elemento con esta clase asignada tendra este tamaño de fuente y un underline*/
-.titulo {
-  font-size: 40px;
-  text-decoration: underline;
-}
-
-.subtitulo {
-  font-size: 30px;
-}
-
-/* Los elementos de esta clase tendrán texto en itálica y negrita*/
-.enfasis {
-  font-style: italic;
-  font-weight: bold;
-}
-
-/* Aquí decimos que las siguientes reglas aplicaran al tag body en general. */
-body {
-  /* Gradiente del fondo */
-  background: linear-gradient(-45deg, #16537e, #162026, #241f29, #272a2c);
-  background-size: 400% 400%;
-  animation: gradient 150s ease infinite;
-  height: 100vh;
-
-  /* El ancho del contenido de la página tomará 80% del total de ella
-   y estará centrado */
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-
-  /* Pongo un espacio vertical entre los límites de la página y el contenido */
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/* Esto hace que la gradiente se mueva */
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-/* Cualquier tag de este listado tendrá su texto centrado y usala la siguiente familia de fuentes */
-h1,
-h2,
 div {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
 }
+
 
 /* Cualquier elemento con esta clase asignada tendra este tamaño de fuente y un underline*/
 .titulo {
@@ -113,8 +64,8 @@ div {
 /* Estilo para la barra de navegación */
 .navbar ul{
   list-style-type: none;
-  background-color: #28124b; /* Color de fondo original */
-  padding: 10px 0; /* Espacio alrededor */
+  background-color: #055183; /* Color de fondo original */
+  padding: 15px; /* Espacio alrededor */
   margin: 0; /* Elimina márgenes predeterminados */
   text-align: center; /* Centra los elementos de la lista */
 }
