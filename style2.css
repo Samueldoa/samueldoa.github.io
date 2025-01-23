@@ -1,0 +1,70 @@
+/* Aquí decimos que las siguientes reglas aplicaran al tag body en general. */
+body {
+  background-color: rgb(9, 45, 62);
+  background-size: 300% 300%; /* Tamaño ajustado */
+  animation: gradient 120s ease infinite;
+  height: 100vh; /* Asegura que el gradiente cubra toda la pantalla */
+  margin: 0; /* Elimina márgenes externos */
+  width: 100%;
+  overflow: hidden; /* Elimina barras de scroll si aparecen */
+}
+
+
+/* Esto hace que la gradiente se mueva */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Cualquier tag de este listado tendrá su texto centrado y usala la siguiente familia de fuentes */
+p {
+  font-family: "Rubik", Courier, monospace;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-right: auto;
+  color: white;
+}
+
+h1 {
+  font-family: "Rubik", Courier, monospace;
+  font-size: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white
+}
+
+h2 {
+  font-family: "Rubik", Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  font-family: "Rubik", Courier, monospace;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+
+/* Cualquier elemento con esta clase asignada tendra este tamaño de fuente y un underline*/
+.titulo {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
