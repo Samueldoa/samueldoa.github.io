@@ -1,8 +1,8 @@
 /* Aquí decimos que las siguientes reglas aplicaran al tag body en general. */
 body {
-  background-color: rgb(9, 45, 62);
+  background: linear-gradient(-45deg,rgb(19, 57, 83), rgb(19, 57, 83), #162026, #272a2c, rgb(19, 57, 83));
   background-size: 300% 300%; /* Tamaño ajustado */
-  animation: gradient 120s ease infinite;
+  animation: gradient 180s ease infinite;
   height: 100vh; /* Asegura que el gradiente cubra toda la pantalla */
   margin: 0; /* Elimina márgenes externos */
   width: 100%;
